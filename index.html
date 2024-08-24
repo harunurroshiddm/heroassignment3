@@ -35,11 +35,10 @@
     <div class="md:container md:mx-auto">
         <nav class="">
             <div class="navbar">
-                <div class="navbar-start">
-                  
-                  <a href="#" class="inline-block align-middle"><span><i class="fa-solid fa-arrow-right rotate-[-45deg] bg-cu-btn-primary rounded-full p-2"></span></i> <span class="text-3xl font-bold">Rinterio</span></a>
+                <div class="flex-1">
+                        <a href="#" class="inline-block align-middle"><span><i class="fa-solid fa-arrow-right rotate-[-45deg] bg-cu-btn-primary rounded-full p-2"></span></i> <span class="text-3xl font-bold">Rinterio</span></a>
                 </div>
-                <div class="navbar-center hidden lg:flex">
+                <div class="flex-2 hidden sm:hidden md:block">
                   <ul class="menu menu-horizontal px-1">
                     <li class="font-bold"><a class="hover:bg-cu-btn-primary hover:rounded-full hover:font-bold">Home</a></li>
                     <li><a class="hover:bg-cu-btn-primary hover:rounded-full">Services</a></li>
@@ -48,42 +47,40 @@
                     <li><a class="hover:bg-cu-btn-primary hover:rounded-full">Contact Us</a></li>
                   </ul>
                 </div>
-                <div class="navbar-end">
-                <div class="padding sm:hidden">
+                <div class="flex-3 hidden sm:hidden md:block">
+                <div class="padding">
                   <a class="btn bg-white rounded-full hover:bg-cu-btn-primary"><i class="fa-solid fa-magnifying-glass"></i></a>
                   <a class="btn bg-white rounded-full ml-2 hover:bg-cu-btn-primary"><i class="fa-solid fa-cart-shopping"></i></a>
-                  <a class="btn bg-cu-btn-primary font-bold rounded-3xl ml-2">Book Consult<i class="fa-solid fa-arrow-right rotate-[-45deg] bg-black text-white rounded-full p-2"></i></a></div>
-
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
+                  <a class="btn bg-cu-btn-primary font-bold rounded-3xl ml-2">Book Consult<i class="fa-solid fa-arrow-right rotate-[-45deg] bg-black text-white rounded-full p-2"></i></a>
                 </div>
+                </div>
+
+                <!-- <div class="flex-2">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M4 6h16M4 12h16M4 18h7" />
+                          </svg>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a>Homepage</a></li>
+                          <li><a>Portfolio</a></li>
+                          <li><a>About</a></li>
+                        </ul>
+                      </div>
+                </div> -->
+            </div>  
         </nav>
     </div>
     <div class="md:container md:mx-auto">
@@ -97,5 +94,49 @@
         </div>
     </div>
     </header>
+
+    <main>
+      <!-- Design Thoughtful Section -->
+       <div class="py-24 md:flex items-center gap-6 md:container md:mx-auto">
+        <!-- Text -->
+         <div class="">
+          <div class="ml-[-4em] pb-2">
+            <img src="images/Vector.png" alt="">
+          </div>
+          <a href="" class="font-bold bg-white rounded-full px-4 py-2"><i class="fa-solid fa-arrow-right mr-1"></i>About Us</a>
+          <h2 class="py-6 text-4xl font-black">We design thoughtful, liveable spaces</h2>
+          <p class="py-2">The barn house captivates with its blend of rustic charm and<br>
+            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          <div class="card card-side bg-base-100 pl-6">
+            <figure>
+              <img
+                  src="images/commercial.png"
+                  alt="commercial house" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Commercial</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 pl-6 mt-6">
+            <figure>
+              <img
+                  src="images/residential.png"
+                  alt="commercial house" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Residential</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+          </div>
+         </div>
+         
+         <!-- Image -->
+         <div>
+          <img src="images/Rectangle.png" alt="">
+         </div>
+
+       </div>
+    </main>
 </body>
 </html>
